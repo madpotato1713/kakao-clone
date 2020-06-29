@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>chat | Kakao Clone</title>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -40,25 +40,45 @@
         </span>
       </div>
     </header>
-    <main class="chat">
-      <ul class="chat_messages">
-        <span class="chat_timestamp">Fridya, January, 11, 2019</span>
+    <main class="chat-screen">
+      <ul class="chat__messages">
+        <span class="chat__timestamp">Fridya, January, 11, 2019</span>
         <li class="incoming-message message">
-          <img src="images/choong9ri.jpg" class="g-avatar message__avatar" />
+          <img src="images/choong9ri.jpg" class="m-avatar message__avatar" />
           <div class="message__content">
-            <span class="message__author">Best Friend</span>
-            <div class="message__bubble">
-              Congrats I love you!
-            </div>
+            <span class="message__bubble">
+              I Congrats I love you!
+            </span>
+            <span class="message__author">
+              Best Friend
+            </span>
           </div>
+        </li>
+        <li class="sent-message message">
           <span class="meesage__timestamp"></span>
+          <div class="message__content">
+            <span class="message__bubble">
+              Thank you see you soon!
+            </span>
+          </div>
         </li>
         <li class="incoming-message message">
+          <img src="images/choong9ri.jpg" class="m-avatar message__avatar" />
+          <div class="message__content">
+            <span class="message__bubble">
+              I Congrats I love you!
+            </span>
+            <span class="message__author">
+              Best Friend
+            </span>
+          </div>
+        </li>
+        <li class="sent-message message">
           <span class="meesage__timestamp"></span>
           <div class="message__content">
-            <div class="message__bubble">
+            <span class="message__bubble">
               Thank you see you soon!
-            </div>
+            </span>
           </div>
         </li>
       </ul>
