@@ -2,15 +2,29 @@
 <html lang="kr">
   <head>
     <title>Home - My first website.</title>
-    <!-- <link href="style.css" rel="stylesheet" /> -->
-    <style></style>
+    <link href="style.css" rel="stylesheet" />
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      div {
+        background-color: teal;
+        width: 200px;
+        height: 200px;
+      }
+      @media print {
+        body {
+          background-color: yellowgreen;
+        }
+      }
+    </style>
   </head>
   <body>
-    <form>
-      <label for="website">Website</label>
-      <input id="website" type="email" required />
-
-      <input type="submit" />
-    </form>
+    <div></div>
+    <span>Please Flip your phone!</span>
   </body>
 </html>
